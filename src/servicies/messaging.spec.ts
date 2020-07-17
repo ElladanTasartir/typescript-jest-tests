@@ -11,7 +11,7 @@ const createSut = () => {
 // A ordem dos testes nunca deveria impactar o funcionamento dos mesmos
 // Por isso a limpeza de mocks pode ser interessante quando isso acontecer
 
-describe('Persistence', () => {
+describe('Messaging', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
