@@ -21,6 +21,7 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   }
 }
